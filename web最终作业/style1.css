@@ -1,0 +1,39 @@
+body {
+    background-color: #9d88d3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    color: white;
+    overflow-x: hidden;
+  }
+/* 设置图片等比例缩小 */
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul{
+    background: #9d88d3;
+    height: 300px;
+    width: 640px;
+    margin: 0 auto;
+}
+ul li{ 
+    background: #9d88d3;/*使盒子背景与总体的背景一致，混淆视线*/
+    box-sizing: border-box;
+    border: 1px solid #333;
+    height: 300px;
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    border-style: hidden/*将盒子边框隐藏*/
+}
+/* 辅助调整三张门(盒子)的并排 */
+ul li:last-child{
+    margin-right: 0px;
+}

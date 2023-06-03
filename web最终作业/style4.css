@@ -1,0 +1,37 @@
+body{
+    background-color: #9d88d3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    color: white;
+    overflow-x: hidden;
+}
+/* 设置表单样式 */
+form{
+    display: table;
+    padding: 10px;
+    border: thin dotted #7e7e7e;
+    background-color: #6d51b3;
+    margin: auto;
+}
+/* 设置长文本段落的大小 */
+form textarea{
+    width: 500px;
+    height: 300px;
+}
+/* 设置输入框 */
+div.tableRow{
+    display:table-row;
+}
+
+div.tableRow p {
+	display: table-cell;
+	vertical-align: top;
+	padding: 3px;
+}
+
+div.tableRow p:first-child {
+	text-align: left;
+}
+p.heading {
+	font-weight: bold;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style4.css">
+    <title>想认识我的话请填写简历</title>
+</head>
+<body>
+    <form action="响应.html" method="post">
+        <!-- 为表单增添内容和选项 -->
+        <div class="tableRow">
+            <p>选择你的意图</p>
+            <p>
+                <select name="意图">
+                    <option value="请教">请教</option>
+                    <option value="扩列">扩列</option>
+                    <option value="交友">交友</option>
+                    <option value="指责">指责</option>
+                    <option value="好奇">好奇</option>
+                    <option value="脱单">脱单</option>
+                </select>
+            </p>
+
+        </div>
+        <div class="tableRow">
+            <p>姓名</p>
+            <p> <input type="text" name="name" value="" placeholder="真实姓名" required> </p>
+        </div>
+        <div class="tableRow">
+            <p>性别</p>
+            <p><select name="性别" >
+                <option value="男">男</option>
+                <option value="女">女</option>
+            </select></p>
+        </div>
+        <div class="tableRow">
+            <p>来历</p>
+            <p><input type="text" name="from" value="" placeholder="学院班级" required></p>
+        </div>
+        <div class="tableRow">
+            <p> 投递速度</p>
+            <p>
+                <input type="radio" name="type" value="漂流瓶"> 漂流瓶<br>
+                <input type="radio" name="type" value="快件" checked>
+                快件
+            </p>
+        </div>
+        <div class="tableRow label">
+            <p> 申请时间：</p>
+            <p> <input type="date" name="date"> </p>
+        </div>
+        <div class="tableRow">
+            <p> 家庭住址: </p>
+            <p> <input type="text" name="address" value="" placeholder="不方便透露可以扣1" required> </p>
+        </div>
+        <div class="tableRow">
+            <p> 电话：</p>
+            <p> <input type="tel" name="phone" value="" placeholder="159-5488-6743" required> </p>
+        </div>
+        <div class="tableRow">
+            <p> 说点好话: </p>
+            <p>
+                <textarea name="简短介绍自己"></textarea>
+            </p>
+        </div>
+        <div class="tableRow">
+            <p></p>
+            <p> <input type="submit" value="提交"> </p>
+        </div>
+    </form>
+</body>
+</html>
